@@ -7,5 +7,13 @@ const instance = axios.create({
   withCredentials: true,
 });
 
-export default instance;
+/**
+ * API 응답에서 data 필드 추출
+ * @param {Object} response - axios 응답 객체
+ * @returns {*} response.data.data 또는 null
+ */
+export function extractData(response) {
+  return response?.data?.data ?? null;
+}
 
+export default instance;
