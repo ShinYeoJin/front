@@ -101,8 +101,9 @@ npm run start
 `.env.local` 파일 생성:
 
 ```env
-# 백엔드 API URL (기본값: https://todolist-back-fohi.onrender.com)
-NEXT_PUBLIC_API_URL=http://localhost:5000
+# 백엔드 API URL (기본값: https://todolist-back-fohi.onrender.com/api)
+# 로컬 개발 시에는 아래와 같이 설정
+NEXT_PUBLIC_API_URL=http://localhost:5000/api
 ```
 
 ## 🎨 커스텀 테마
