@@ -8,7 +8,7 @@
 
 ## 🌐 배포 URL
 
-- **Frontend**: [Vercel 배포 URL]
+- **Frontend**: https://todofront-xi.vercel.app
 - **Backend API**: https://todolist-back-fohi.onrender.com
 
 ## ✨ 주요 기능
